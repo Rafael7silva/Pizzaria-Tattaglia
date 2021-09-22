@@ -1,0 +1,21 @@
+
+-------------------------------------------------------------------
+   Projeto: Pizzaria                                                                                      
+   Cliente: Famiglia Tattaglia 
+   Data: 21/09/2021
+   Desenvolvedor: Rafael. F
+-------------------------------------------------------------------
+                                 Estratégia
+
+   Objetivo do Projeto: Alavancar ainda mais a grade de clientes,
+com a revitalização da marca mas mantendo sua intentidade que é 
+o principal motivo de estarem nesse concorrido mercado das massas.
+O site se dividirá em dois parâmetros, que serão eles INFORMATIVO
+e PROMOCIONAL, onde as informações sobre novos conteudos serão
+diariamente, e o promocional de forma esporadica.
+
+   Publico alvo: Atual/Livre
+
+   
+
+
