@@ -1,0 +1,290 @@
+@charset "UTF8";
+
+
+body{
+  background:url("../imagens/fundopizza.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: bottom;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+div#interface{
+  background: rgba(19, 24, 25, 0.6
+  ); 
+  max-width: 1200px;
+  width: 100%;
+  margin: -8px auto 0px auto;
+  right: 100%;
+}
+
+
+.topo{
+  height: 185px;
+  }
+
+
+.menu{
+  width: 700px;
+  display: block;
+  position: absolute;
+  top: 97px;
+  margin-left: 610px;
+  z-index: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.menu ul{
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.1em;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu li{
+  float: left;
+ }
+
+.menu li a{
+  text-decoration: none;
+  color: #fff;
+  background: transparent;
+  padding: 5px 25px;
+  margin: 0px;
+  display: block;
+}
+
+.menu li a:hover{
+  background: #ccc;
+  color: #000;
+}
+
+
+
+
+.menu2{
+  width: 700px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  margin-left: 961px;
+  z-index: 100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.menu2 ul{
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.1em;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu2 li{
+  float: left;
+ }
+
+.menu2 li a{
+  text-decoration: none;
+  color: #fff;
+  background: transparent;
+  padding: 5px 25px;
+  margin: 0px;
+  display: block;
+}
+
+.menu2 li a:hover{
+  background: #ccc;
+  color: #000;
+}
+
+
+/*SUB MENU*/
+
+.menu li ul{
+  display: none;
+  font-size: 1.0em;
+}
+
+.menu li:hover ul{
+  display: block;
+  position: relative;
+}
+
+.menu li:hover li{
+  float: none;
+}
+
+/*BANNERS*/
+
+
+img{
+  max-width: 100%;
+  height: auto ;
+}
+
+ /* .pizza_lanche{
+  position:relative ;
+  max-width: 1200px;
+  height: auto;
+  left: 0.5%;
+}  */
+
+.img_sal{
+  float: left;
+  width: 30%;
+  margin: 10px 20px;
+  position: relative;
+ 
+}
+
+
+.img_doc{
+  float: left;
+  width: 30%;
+  margin: 10px 20px;
+  position: relative;
+  top: 400px;
+}
+
+
+
+.img_lan{
+  float: right;
+  width: 30%;
+  margin: -1px 20px;
+  position: relative;
+  
+}
+
+
+
+h2 {
+	text-align: center;
+	font-size: 1.3em;
+	margin: 3px;
+  color: silver;
+}
+
+p {
+	font-size: 1.2em;
+	text-indent: 1px;
+	color: silver;
+}
+
+span a {
+	color: red;
+	text-decoration: none;
+ }
+
+span a:hover {
+	color: blue;
+}
+
+.rodape {
+	clear: both;
+	border-top: 2px solid red;
+  top: 300px;
+  text-decoration: none;
+
+} 
+
+.rodape p{
+  text-align: center;
+  font-size: 15px;
+  top: 200;
+  text-decoration: none;
+ 
+  
+}
+
+.rodape p a{
+  text-align:left;
+  font-size: 15px;
+  top: 100;
+  text-decoration: none;
+  color: #ccc;
+  
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.animacao{
+  margin: 300px auto;
+  width: 400px;
+  height: 390px;
+  position: relative;
+  overflow: hidden;
+  top: -440px;
+  right: 370px;
+  left: -360px;
+ 
+}
+
+.anima{
+  position: absolute;
+  opacity: 0;
+  animation-name: animac;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes animac{
+  25%{
+      opacity: 1;
+      transform: scale(1.1,1.1);
+  }
+
+  50%{
+      opacity:0;
+  }
+}
+
+/* .anima:nth-child(1){
+  
+} */
+
+.anima:nth-child(2){
+  animation-delay: 5s; 
+}
+
+.anima:nth-child(3){
+  animation-delay: 10s;
+}
+
+.anima:nth-child(4){
+  animation-delay: 15s;
+}
+
+.anima:nth-child(5){
+  animation-delay: 20s;
+}
+
+
+.maps{
+  text-align: center;
+  width: 100%;
+  top: -50px;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
